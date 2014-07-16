@@ -1,0 +1,1 @@
+This work is adapted from ["A quick route to building a strategy"](http://blog.gardeviance.org/2014/07/a-quick-route-to-building-strategy.html) by Simon Wardley, and thereby licensed under the [Creative Commons Attribution-Share Alike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/)

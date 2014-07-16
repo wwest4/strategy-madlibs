@@ -1,0 +1,95 @@
+body {
+  background: rgba(196,236,248,1);
+  background: -moz-linear-gradient(
+    top, 
+    rgba(196,236,248,1) 0%, 
+    rgba(196,236,248,1) 50%, 
+    rgba(255,255,255,1) 86%, 
+    rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(
+    left top, 
+    left bottom, 
+    color-stop(0%, rgba(196,236,248,1)), 
+    color-stop(50%, rgba(196,236,248,1)), 
+    color-stop(86%, rgba(255,255,255,1)), 
+    color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(
+    top, 
+    rgba(196,236,248,1) 0%, 
+    rgba(196,236,248,1) 50%, 
+    rgba(255,255,255,1) 86%, 
+    rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(
+    top, 
+    rgba(196,236,248,1) 0%, 
+    rgba(196,236,248,1) 50%, 
+    rgba(255,255,255,1) 86%, 
+    rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(
+    top, 
+    rgba(196,236,248,1) 0%, 
+    rgba(196,236,248,1) 50%, 
+    rgba(255,255,255,1) 86%, 
+    rgba(255,255,255,1) 100%);
+  background: linear-gradient( 
+    to bottom, 
+    rgba(196,236,248,1) 0%, 
+    rgba(196,236,248,1) 50%, 
+    rgba(255,255,255,1) 86%, 
+    rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( 
+    startColorstr='#c4ecf8', 
+    endColorstr='#ffffff', 
+    GradientType=0 );
+  background-repeat: no-repeat;
+}
+
+div.background {
+  width: 600px;
+  height: 300px;
+  position: relative;
+}
+
+div.strategy {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.strategy:after {
+  background: url("background.png");
+  opacity: 0.05;
+  width: 600px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  content: "";
+}
+
+p {
+  padding-top: 8%;
+  font-family: "Georgia", Georgia, serif;
+  font-style: italic;
+  line-height: 150%;
+  color: #111188;
+  text-align: center;
+}
+
+footer {
+  width:100%;
+  height:20px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background:#ffffff;
+  font-family: "Georgia", Georgia, serif;
+  font-size:50%;
+  text-align: center;
+}
