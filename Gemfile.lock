@@ -3,14 +3,14 @@ GEM
   specs:
     kgio (2.11.0)
     mustermann (1.0.2)
-    rack (2.0.4)
-    rack-protection (2.0.1)
+    rack (2.0.5)
+    rack-protection (2.0.3)
       rack
     raindrops (0.18.0)
-    sinatra (2.0.1)
+    sinatra (2.0.3)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.1)
+      rack-protection (= 2.0.3)
       tilt (~> 2.0)
     tilt (2.0.8)
     unicorn (5.3.0)
@@ -21,7 +21,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sinatra (~> 2.0.1)
+  sinatra (~> 2.0.2)
   unicorn
 
 BUNDLED WITH
