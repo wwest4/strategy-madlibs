@@ -3,7 +3,7 @@ GEM
   specs:
     kgio (2.11.0)
     mustermann (1.0.2)
-    rack (2.1.4)
+    rack (2.1.4.1)
     rack-protection (2.0.3)
       rack
     raindrops (0.18.0)
