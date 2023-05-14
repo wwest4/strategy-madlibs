@@ -1,26 +1,26 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    kgio (2.11.0)
+    kgio (2.11.4)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
-    rack (2.2.6.4)
-    rack-protection (2.2.3)
+    rack (2.2.7)
+    rack-protection (2.2.4)
       rack
-    raindrops (0.18.0)
+    raindrops (0.20.1)
     ruby2_keywords (0.0.5)
-    sinatra (2.2.3)
+    sinatra (2.2.4)
       mustermann (~> 2.0)
       rack (~> 2.2)
-      rack-protection (= 2.2.3)
+      rack-protection (= 2.2.4)
       tilt (~> 2.0)
     tilt (2.1.0)
-    unicorn (5.3.0)
+    unicorn (6.1.0)
       kgio (~> 2.6)
       raindrops (~> 0.7)
 
 PLATFORMS
-  ruby
+  arm64-darwin-22
 
 DEPENDENCIES
   rack (~> 2.2.6)
@@ -28,7 +28,7 @@ DEPENDENCIES
   unicorn
 
 RUBY VERSION
-   ruby 2.4.1p111
+   ruby 3.2.2p53
 
 BUNDLED WITH
-   1.15.4
+   2.4.13
