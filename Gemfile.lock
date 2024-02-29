@@ -4,7 +4,7 @@ GEM
     kgio (2.11.4)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
-    rack (2.2.7)
+    rack (2.2.8.1)
     rack-protection (2.2.4)
       rack
     raindrops (0.20.1)
@@ -24,7 +24,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  rack (~> 2.2.6)
+  rack (~> 2.2.8)
   sinatra (~> 2.2.3)
   unicorn
 
