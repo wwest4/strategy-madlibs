@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem 'sinatra', '~> 2.2.3'
-gem 'rack', '~> 2.2.8'
+gem 'sinatra', '~> 4.1.0'
+gem 'rack', '~> 3.1.8'
 gem 'unicorn'
 
 ruby "3.2.2"
