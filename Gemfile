@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'sinatra', '~> 4.1.0'
+gem 'sinatra', '~> 4.2.0'
 gem 'rack', '~> 3.1.17'
 gem 'unicorn'
 
